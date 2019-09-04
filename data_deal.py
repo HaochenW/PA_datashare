@@ -54,5 +54,13 @@ h5['GR_exp'] = GR_exp
 h5['NBT_exp'] = NBT_exp
 h5.close()
 
+# Output the csv file
+csv_output = pd.concat([seq,GR_exp],axis=1)
+csv_output.to_csv('GR_exp.csv')
+
+csv_output = pd.concat([seq,NBT_exp],axis=1)
+csv_output.to_csv('NBT_exp.csv')
+
+
 
 

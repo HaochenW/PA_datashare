@@ -22,6 +22,8 @@ Nature Biotechology: ["Inferring gene regulatory logic from high-throughput meas
 - sequence: 6500 promoter sequences (150bps)
 - GR_exp: The expression mean and noise in the Genome Research paper
 - NBT_exp: The expression mean in the Nature biotechology paper
+- `GR_exp.csv`: Sequence and expression mean and noise from ["Probing the effect of promoters on noise in gene expression using thousands of designed sequences"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4199362/).
+- `NBT_exp.csv`: Sequence and expression mean from ["Inferring gene regulatory logic from high-throughput measurements of thousands of systematically designed promoters"](https://www.nature.com/articles/nbt.2205)
 
 ## Load the data
 - Load the data by below python script
